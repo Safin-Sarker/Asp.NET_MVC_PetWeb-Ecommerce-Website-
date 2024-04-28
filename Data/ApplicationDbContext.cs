@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using PetWeb.Models;
 
 namespace PetWeb.Data
 {
@@ -9,5 +10,7 @@ namespace PetWeb.Data
             : base(options)
         {
         }
+
+        
     }
 }
