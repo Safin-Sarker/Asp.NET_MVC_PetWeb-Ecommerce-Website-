@@ -1,2 +1,2 @@
 # PetWeb
-This is a underdeveloping project
+This is a under developing project
