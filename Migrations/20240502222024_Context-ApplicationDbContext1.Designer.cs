@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PetWeb.Data;
 
@@ -10,9 +11,11 @@ using PetWeb.Data;
 namespace PetWeb.Migrations
 {
     [DbContext(typeof(ApplicationDbContext1))]
-    partial class ApplicationDbContext1ModelSnapshot : ModelSnapshot
+    [Migration("20240502222024_Context-ApplicationDbContext1")]
+    partial class ContextApplicationDbContext1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
