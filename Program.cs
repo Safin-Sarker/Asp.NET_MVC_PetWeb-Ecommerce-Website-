@@ -19,27 +19,28 @@ Log.Logger = new LoggerConfiguration()
 #endregion
 
 
-try 
+try
 {
 
     Log.Information("Starting up");
 
     var builder = WebApplication.CreateBuilder(args);
 
+    #region serilog general
+    builder.Host.UseSerilog((HostBuilderContext context,
+        IServiceProvider services, LoggerConfiguration
+        loggerConfiguration) =>
+        {
+            loggerConfiguration
+            .ReadFrom.Configuration(context.Configuration) // read configuration setting from built-in Iconfiguration
+            .ReadFrom.Services(services); //read out current apps services and make them available to serilog
 
-builder.Host.UseSerilog((HostBuilderContext context,
-    IServiceProvider services,LoggerConfiguration
-    loggerConfiguration) =>
-    {
-        loggerConfiguration
-        .ReadFrom.Configuration(context.Configuration) // read configuration setting from built-in Iconfiguration
-        .ReadFrom.Services(services); //read out current apps services and make them available to serilog
 
+        });
+    #endregion
 
-    });
-
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+    // Add services to the container.
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
