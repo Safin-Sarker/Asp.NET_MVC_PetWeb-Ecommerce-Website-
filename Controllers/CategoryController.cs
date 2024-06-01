@@ -17,5 +17,10 @@ namespace PetWeb.Controllers
 
             return View(category);
         }
+
+        public IActionResult Create() 
+        {
+            return View();
+        }
     }
 }
