@@ -3,7 +3,28 @@ using Microsoft.EntityFrameworkCore;
 using PetWeb.Data;
 using Serilog;
 
-var builder = WebApplication.CreateBuilder(args);
+
+
+# region bootstrap logger
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json")
+    .Build();
+
+// Configure the bootstrap logger
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(configuration)
+    .CreateBootstrapLogger();
+
+#endregion
+
+
+try 
+{
+
+    Log.Information("Starting up");
+
+    var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Host.UseSerilog((HostBuilderContext context,
@@ -61,3 +82,15 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
+
+}
+
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Failed to start application.");
+}
+finally
+{
+    Log.CloseAndFlush();
+}
