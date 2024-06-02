@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PetWeb.Data;
+using PetWeb.Models;
 
 namespace PetWeb.Controllers
 {
@@ -22,5 +23,15 @@ namespace PetWeb.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Create(Category obj)
+        {
+            dbContext1.Categories.Add(obj);
+            dbContext1.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+
     }
 }
