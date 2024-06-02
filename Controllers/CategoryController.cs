@@ -27,9 +27,20 @@ namespace PetWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
-            dbContext1.Categories.Add(obj);
-            dbContext1.SaveChanges();
-            return RedirectToAction("Index");
+            if(obj.Name==obj.DisplayOrder.ToString()) 
+            {
+                ModelState.AddModelError("Name","Name and DisplayOrder Can not be same");
+            }
+            if (ModelState.IsValid) 
+            {
+                dbContext1.Categories.Add(obj);
+                dbContext1.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View();
+            
+
         }
 
 
