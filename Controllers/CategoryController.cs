@@ -35,6 +35,7 @@ namespace PetWeb.Controllers
             {
                 dbContext1.Categories.Add(obj);
                 dbContext1.SaveChanges();
+                TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
 
@@ -48,7 +49,7 @@ namespace PetWeb.Controllers
         {
             if(id!=null)
             {
-                Category category = dbContext1.Categories.FirstOrDefault(x=>x.Id==id);
+                Category? category = dbContext1.Categories.FirstOrDefault(x=>x.Id==id);
                 if(category!=null) 
                 {
                     return View(category);
@@ -66,7 +67,8 @@ namespace PetWeb.Controllers
 			{
 				dbContext1.Categories.Update(obj);
 				dbContext1.SaveChanges();
-				return RedirectToAction("Index");
+                TempData["success"] = "Category updated successfully";
+                return RedirectToAction("Index");
 			}
 
 			return View();
@@ -99,7 +101,8 @@ namespace PetWeb.Controllers
                 {
 					dbContext1.Categories.Remove(category);
 					dbContext1.SaveChanges();
-					return RedirectToAction("Index");
+                    TempData["success"] = "Category Deleted successfully";
+                    return RedirectToAction("Index");
 				}
             }
 			return NotFound();
