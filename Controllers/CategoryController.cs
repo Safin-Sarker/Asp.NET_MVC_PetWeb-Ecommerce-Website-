@@ -43,6 +43,37 @@ namespace PetWeb.Controllers
 
         }
 
+        [HttpGet]
+        public IActionResult Edit(int? id) 
+        {
+            if(id!=null)
+            {
+                Category category = dbContext1.Categories.FirstOrDefault(x=>x.Id==id);
+                if(category!=null) 
+                {
+                    return View(category);
+                }
+            }
+            return NotFound();
 
-    }
+        }
+
+		[HttpPost]
+		public IActionResult Edit(Category obj)
+		{
+			
+			if (ModelState.IsValid)
+			{
+				dbContext1.Categories.Update(obj);
+				dbContext1.SaveChanges();
+				return RedirectToAction("Index");
+			}
+
+			return View();
+
+
+		}
+
+
+	}
 }
