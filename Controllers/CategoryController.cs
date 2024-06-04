@@ -74,6 +74,40 @@ namespace PetWeb.Controllers
 
 		}
 
+		[HttpGet]
+		public IActionResult Delete(int? id)
+		{
+			if (id != null)
+			{
+				Category? category = dbContext1.Categories.FirstOrDefault(x => x.Id == id);
+				if (category != null)
+				{
+					return View(category);
+				}
+			}
+			return NotFound();
+
+		}
+
+		[HttpPost,ActionName("Delete")]
+		public IActionResult DeleteAction(int? id)
+		{
+            if(id!= null) 
+            {
+                Category? category = dbContext1.Categories.FirstOrDefault(x => x.Id == id);
+                if (category != null) 
+                {
+					dbContext1.Categories.Remove(category);
+					dbContext1.SaveChanges();
+					return RedirectToAction("Index");
+				}
+            }
+			return NotFound();
+
+
+
+		}
+
 
 	}
 }
