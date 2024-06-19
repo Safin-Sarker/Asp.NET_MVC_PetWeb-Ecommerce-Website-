@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PetWeb.Models;
 
-namespace PetWeb.Data
+namespace PetWeb.DataAccess.Data
 {
     public class ApplicationDbContext1:DbContext
     {

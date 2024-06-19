@@ -4,10 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PetWeb.Data;
+using PetWeb.DataAccess.Data;
 
 #nullable disable
 
-namespace PetWeb.Migrations
+namespace PetWeb.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext1))]
     partial class ApplicationDbContext1ModelSnapshot : ModelSnapshot

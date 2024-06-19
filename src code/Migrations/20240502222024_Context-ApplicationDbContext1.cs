@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace PetWeb.Migrations
+namespace PetWeb.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class ContextApplicationDbContext1 : Migration

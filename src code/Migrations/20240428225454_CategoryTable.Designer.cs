@@ -8,9 +8,9 @@ using PetWeb.Data;
 
 #nullable disable
 
-namespace PetWeb.Migrations
+namespace PetWeb.DataAccess.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext1))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240428225454_CategoryTable")]
     partial class CategoryTable
     {

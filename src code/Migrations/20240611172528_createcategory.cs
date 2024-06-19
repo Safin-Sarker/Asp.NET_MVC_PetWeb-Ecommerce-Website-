@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace PetWeb.Migrations
+namespace PetWeb.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class createcategory : Migration
