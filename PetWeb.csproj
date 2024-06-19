@@ -25,4 +25,8 @@
     <Folder Include="logs\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PetWeb.DataAccess\PetWeb.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

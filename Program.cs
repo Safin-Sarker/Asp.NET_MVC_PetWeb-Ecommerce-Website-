@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PetWeb.Data;
+using PetWeb.DataAccess.Data;
 using Serilog;
 
 

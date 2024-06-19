@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PetWeb.Data;
+using PetWeb.DataAccess.Data;
 using PetWeb.Models;
 
 namespace PetWeb.Controllers
