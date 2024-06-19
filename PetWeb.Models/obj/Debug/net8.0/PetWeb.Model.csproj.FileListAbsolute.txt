@@ -1,0 +1,11 @@
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\bin\Debug\net8.0\PetWeb.Model.deps.json
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\bin\Debug\net8.0\PetWeb.Model.dll
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\bin\Debug\net8.0\PetWeb.Model.pdb
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\PetWeb.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\PetWeb.Model.AssemblyInfoInputs.cache
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\PetWeb.Model.AssemblyInfo.cs
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\PetWeb.Model.csproj.CoreCompileInputs.cache
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\PetWeb.Model.dll
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\refint\PetWeb.Model.dll
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\PetWeb.Model.pdb
+D:\ASP.net-Mvc\Petweb\PetWeb.Models\obj\Debug\net8.0\ref\PetWeb.Model.dll
