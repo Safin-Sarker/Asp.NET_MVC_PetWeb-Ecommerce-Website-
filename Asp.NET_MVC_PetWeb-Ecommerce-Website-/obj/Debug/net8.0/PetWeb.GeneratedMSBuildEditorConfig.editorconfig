@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PetWeb
+build_property.RootNamespace = PetWeb
+build_property.ProjectDir = D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXEFyZWFzXElkZW50aXR5XFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXENhdGVnb3J5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXENhdGVnb3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXFNoYXJlZFxfTm90aWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net-Mvc/petweb 2/peeett/Asp.NET_MVC_PetWeb-Ecommerce-Website-/PetWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGV0V2ViXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-ucnupgq5x8

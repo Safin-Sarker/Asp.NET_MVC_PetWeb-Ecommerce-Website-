@@ -1,0 +1,12 @@
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\bin\Debug\net8.0\PetWeb.Utility.deps.json
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\bin\Debug\net8.0\PetWeb.Utility.dll
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\bin\Debug\net8.0\PetWeb.Utility.pdb
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\PetWeb.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\PetWeb.Utility.AssemblyInfoInputs.cache
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\PetWeb.Utility.AssemblyInfo.cs
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\PetWeb.Utility.csproj.CoreCompileInputs.cache
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\PetWeb.Utility.sourcelink.json
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\PetWeb.Utility.dll
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\refint\PetWeb.Utility.dll
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\PetWeb.Utility.pdb
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Utility\obj\Debug\net8.0\ref\PetWeb.Utility.dll
