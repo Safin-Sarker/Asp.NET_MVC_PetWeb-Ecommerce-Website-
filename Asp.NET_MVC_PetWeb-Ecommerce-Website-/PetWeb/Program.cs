@@ -5,7 +5,7 @@ using PetWeb.DataAccess.Data;
 using PetWeb.DataAccess.Repository;
 using PetWeb.DataAccess.Repository.IRepository;
 using Serilog;
-
+using PetWeb.DataAccess.Repository;
 
 
 # region bootstrap logger
@@ -53,7 +53,7 @@ builder.Services.AddDbContext<ApplicationDbContext1>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -84,7 +84,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using PetWeb.Models;
 using System.Diagnostics;
 
-namespace PetWeb.Controllers
+namespace PetWeb.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

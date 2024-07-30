@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetWeb.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c58ee6f7bacabf5e87c57cd172f21ea84c96c161")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8eaf85122205d564aa668ef155a3e14725883f96")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetWeb.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetWeb.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
