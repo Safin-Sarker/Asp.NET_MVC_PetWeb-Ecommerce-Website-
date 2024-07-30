@@ -1,21 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PetWeb.Data;
 using PetWeb.DataAccess.Data;
+using PetWeb.DataAccess.Repository.IRepository;
 using PetWeb.Models;
 
 namespace PetWeb.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext1 dbContext1;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public CategoryController(ApplicationDbContext1 dbContext1)
+        public CategoryController(ICategoryRepository categoryRepository)
         {
-            this.dbContext1 = dbContext1;
+            _categoryRepository = categoryRepository;
         }
         public IActionResult Index()
         {
-            var category = dbContext1.Categories.ToList();
+            var category = _categoryRepository.GetAll();
 
             return View(category);
         }
@@ -34,8 +35,8 @@ namespace PetWeb.Controllers
             }
             if (ModelState.IsValid) 
             {
-                dbContext1.Categories.Add(obj);
-                dbContext1.SaveChanges();
+                _categoryRepository.Add(obj);
+                _categoryRepository.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
@@ -50,7 +51,7 @@ namespace PetWeb.Controllers
         {
             if(id!=null)
             {
-                Category? category = dbContext1.Categories.FirstOrDefault(x=>x.Id==id);
+                Category? category = _categoryRepository.Get(x=>x.Id==id);
                 if(category!=null) 
                 {
                     return View(category);
@@ -66,8 +67,8 @@ namespace PetWeb.Controllers
 			
 			if (ModelState.IsValid)
 			{
-				dbContext1.Categories.Update(obj);
-				dbContext1.SaveChanges();
+                _categoryRepository.Update(obj);
+                _categoryRepository.Save();
                 TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");
 			}
@@ -82,8 +83,8 @@ namespace PetWeb.Controllers
 		{
 			if (id != null)
 			{
-				Category? category = dbContext1.Categories.FirstOrDefault(x => x.Id == id);
-				if (category != null)
+				Category? category = _categoryRepository.Get(x => x.Id == id);
+                if (category != null)
 				{
 					return View(category);
 				}
@@ -97,11 +98,11 @@ namespace PetWeb.Controllers
 		{
             if(id!= null) 
             {
-                Category? category = dbContext1.Categories.FirstOrDefault(x => x.Id == id);
+                Category? category = _categoryRepository.Get(x => x.Id == id);
                 if (category != null) 
                 {
-					dbContext1.Categories.Remove(category);
-					dbContext1.SaveChanges();
+                    _categoryRepository.Remove(category);
+                    _categoryRepository.Save();
                     TempData["success"] = "Category Deleted successfully";
                     return RedirectToAction("Index");
 				}

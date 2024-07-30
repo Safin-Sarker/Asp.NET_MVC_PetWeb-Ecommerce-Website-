@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PetWeb.Data;
 using PetWeb.DataAccess.Data;
+using PetWeb.DataAccess.Repository;
+using PetWeb.DataAccess.Repository.IRepository;
 using Serilog;
 
 
@@ -50,6 +52,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDbContext<ApplicationDbContext1>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
