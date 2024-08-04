@@ -9,12 +9,13 @@ namespace PetWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-       
-        private readonly IUnitOfWork _unitOfWork;
+		private readonly ILogger<CategoryController> _logger;
+		private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CategoryController(ILogger<CategoryController>logger,IUnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork;
+			_logger = logger;
+			_unitOfWork = unitOfWork;
         }
         public IActionResult Index()
         {
@@ -28,7 +29,7 @@ namespace PetWeb.Areas.Admin.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpPost,ValidateAntiForgeryToken]
         public IActionResult Create(Category obj)
         {
             if (obj.Name == obj.DisplayOrder.ToString())
@@ -40,8 +41,12 @@ namespace PetWeb.Areas.Admin.Controllers
                 _unitOfWork.Category.Add(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "Category created successfully";
-                return RedirectToAction("Index");
-            }
+				_logger.LogInformation("Category Create");
+				return RedirectToAction("Index");
+				
+			}
+
+            _logger.LogError("Category Creation Failed");
 
             return View();
 
@@ -63,7 +68,7 @@ namespace PetWeb.Areas.Admin.Controllers
 
         }
 
-        [HttpPost]
+        [HttpPost, ValidateAntiForgeryToken]
         public IActionResult Edit(Category obj)
         {
 
@@ -72,10 +77,13 @@ namespace PetWeb.Areas.Admin.Controllers
                 _unitOfWork.Category.Update(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "Category updated successfully";
-                return RedirectToAction("Index");
+				_logger.LogInformation("Category Update");
+				return RedirectToAction("Index");
             }
 
-            return View();
+			_logger.LogError("Category Update Failed");
+
+			return View();
 
 
         }
@@ -95,7 +103,7 @@ namespace PetWeb.Areas.Admin.Controllers
 
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("Delete"), ValidateAntiForgeryToken]
         public IActionResult DeleteAction(int? id)
         {
             if (id != null)
@@ -106,9 +114,13 @@ namespace PetWeb.Areas.Admin.Controllers
                     _unitOfWork.Category.Remove(category);
                     _unitOfWork.Save();
                     TempData["success"] = "Category Deleted successfully";
-                    return RedirectToAction("Index");
+					_logger.LogInformation("Category Delete");
+					return RedirectToAction("Index");
                 }
-            }
+
+				_logger.LogError("Category Delete Opereation Failed");
+
+			}
             return NotFound();
 
 

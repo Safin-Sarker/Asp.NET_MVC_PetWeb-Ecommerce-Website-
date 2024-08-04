@@ -5,7 +5,7 @@ using PetWeb.DataAccess.Data;
 using PetWeb.DataAccess.Repository;
 using PetWeb.DataAccess.Repository.IRepository;
 using Serilog;
-using PetWeb.DataAccess.Repository;
+
 
 
 # region bootstrap logger

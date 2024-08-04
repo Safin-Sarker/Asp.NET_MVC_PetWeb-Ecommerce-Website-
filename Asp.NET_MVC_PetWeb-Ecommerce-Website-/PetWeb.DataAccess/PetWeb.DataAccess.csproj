@@ -20,6 +20,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PetWeb.Models\PetWeb.Models.csproj" />
+    <ProjectReference Include="..\PetWeb.Utility\PetWeb.Utility.csproj" />
+    
+    
   </ItemGroup>
 
 </Project>

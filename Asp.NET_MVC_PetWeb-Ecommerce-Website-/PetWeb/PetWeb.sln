@@ -5,11 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetWeb", "PetWeb.csproj", "{C662B021-03E6-4450-BA7E-E84FD0CF1099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetWeb.DataAccess", "..\PetWeb.DataAccess\PetWeb.DataAccess.csproj", "{B4B4E524-B523-489A-BBF4-57EDF058B6C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetWeb.DataAccess", "PetWeb.DataAccess\PetWeb.DataAccess.csproj", "{B4B4E524-B523-489A-BBF4-57EDF058B6C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetWeb.Models", "..\PetWeb.Models\PetWeb.Models.csproj", "{8F52447E-086D-4B00-98A2-585339E96C06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetWeb.Models", "PetWeb.Models\PetWeb.Models.csproj", "{8F52447E-086D-4B00-98A2-585339E96C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetWeb.Utility", "..\PetWeb.Utility\PetWeb.Utility.csproj", "{90246C39-FDD2-4909-95B9-52AE3CB0E13B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetWeb.Utility", "PetWeb.Utility\PetWeb.Utility.csproj", "{90246C39-FDD2-4909-95B9-52AE3CB0E13B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

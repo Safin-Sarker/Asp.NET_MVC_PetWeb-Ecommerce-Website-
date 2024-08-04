@@ -16,3 +16,5 @@ D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.Data
 D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.DataAccess\obj\Debug\net8.0\PetWeb.DataAccess.pdb
 D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.DataAccess\obj\Debug\net8.0\PetWeb.DataAccess.genruntimeconfig.cache
 D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.DataAccess\obj\Debug\net8.0\ref\PetWeb.DataAccess.dll
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.DataAccess\bin\Debug\net8.0\PetWeb.Utility.dll
+D:\ASP.net-Mvc\petweb 2\peeett\Asp.NET_MVC_PetWeb-Ecommerce-Website-\PetWeb.DataAccess\bin\Debug\net8.0\PetWeb.Utility.pdb

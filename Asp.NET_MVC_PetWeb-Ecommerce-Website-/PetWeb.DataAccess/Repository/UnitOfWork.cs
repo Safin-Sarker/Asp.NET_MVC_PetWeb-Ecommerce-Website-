@@ -14,10 +14,15 @@ namespace PetWeb.DataAccess.Repository
 
         public ICategoryRepository Category { get; private set; }
 
+        public IProductRepository Product { get; private set; }
+
+       
+
         public UnitOfWork(ApplicationDbContext1 applicationDbContext1)
         {
             _applicationDbContext1 = applicationDbContext1;
             Category = new CategoryRepository (_applicationDbContext1);
+            Product = new ProductRepository(_applicationDbContext1);
         }
 
         

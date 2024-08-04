@@ -1681,6 +1681,16 @@
         "runtime": {
           "bin/placeholder/PetWeb.Models.dll": {}
         }
+      },
+      "PetWeb.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PetWeb.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetWeb.Utility.dll": {}
+        }
       }
     }
   },
@@ -4555,6 +4565,11 @@
       "type": "project",
       "path": "../PetWeb.Models/PetWeb.Models.csproj",
       "msbuildProject": "../PetWeb.Models/PetWeb.Models.csproj"
+    },
+    "PetWeb.Utility/1.0.0": {
+      "type": "project",
+      "path": "../PetWeb.Utility/PetWeb.Utility.csproj",
+      "msbuildProject": "../PetWeb.Utility/PetWeb.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4565,7 +4580,8 @@
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
-      "PetWeb.Models >= 1.0.0"
+      "PetWeb.Models >= 1.0.0",
+      "PetWeb.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4597,6 +4613,9 @@
           "projectReferences": {
             "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.Models\\PetWeb.Models.csproj": {
               "projectPath": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.Models\\PetWeb.Models.csproj"
+            },
+            "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.Utility\\PetWeb.Utility.csproj": {
+              "projectPath": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.Utility\\PetWeb.Utility.csproj"
             }
           }
         }

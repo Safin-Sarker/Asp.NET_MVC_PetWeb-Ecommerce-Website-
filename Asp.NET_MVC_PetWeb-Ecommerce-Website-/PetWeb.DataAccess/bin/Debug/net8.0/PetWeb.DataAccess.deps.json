@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
-          "PetWeb.Models": "1.0.0"
+          "PetWeb.Models": "1.0.0",
+          "PetWeb.Utility": "1.0.0"
         },
         "runtime": {
           "PetWeb.DataAccess.dll": {}
@@ -967,6 +968,11 @@
         "runtime": {
           "PetWeb.Models.dll": {}
         }
+      },
+      "PetWeb.Utility/1.0.0": {
+        "runtime": {
+          "PetWeb.Utility.dll": {}
+        }
       }
     }
   },
@@ -1572,6 +1578,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "PetWeb.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetWeb.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

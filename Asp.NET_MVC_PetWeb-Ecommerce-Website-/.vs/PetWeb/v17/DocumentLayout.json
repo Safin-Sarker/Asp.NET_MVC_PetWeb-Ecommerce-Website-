@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|solutionrelative:petweb.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|solutionrelative:petweb.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb.dataaccess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|solutionrelative:petweb.dataaccess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb.dataaccess\\repository\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD82A20C-0378-4408-B778-AF6D94EF9043}|PetWeb.DataAccess\\PetWeb.DataAccess.csproj|solutionrelative:petweb.dataaccess\\repository\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|d:\\asp.net-mvc\\petweb 2\\peeett\\asp.net_mvc_petweb-ecommerce-website-\\petweb\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35DD42DF-CA58-4C74-A197-3134598B88E5}|PetWeb\\PetWeb.csproj|solutionrelative:petweb\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:193525246:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "PetWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "PetWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T22:41:40.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PetWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PetWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T22:38:48.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "PetWeb.DataAccess\\Repository\\CategoryRepository.cs",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "PetWeb.DataAccess\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:59:33.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PetWeb.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "PetWeb.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:59:29.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "PetWeb.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "PetWeb.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:59:28.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\IRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "PetWeb.DataAccess\\Repository\\IRepository\\IProductRepository.cs",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb.DataAccess\\Repository\\IRepository\\IProductRepository.cs",
+              "RelativeToolTip": "PetWeb.DataAccess\\Repository\\IRepository\\IProductRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:59:04.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Program.cs",
+              "RelativeDocumentMoniker": "PetWeb\\Program.cs",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Program.cs",
+              "RelativeToolTip": "PetWeb\\Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAowDQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:14:11.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PetWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PetWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:11:40.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PetWeb\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "PetWeb\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T16:27:38.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PetWeb\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "PetWeb\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T16:27:36.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "PetWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "PetWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T16:26:02.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "PetWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\ASP.net-Mvc\\petweb 2\\peeett\\Asp.NET_MVC_PetWeb-Ecommerce-Website-\\PetWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "PetWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T15:32:54.395Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
